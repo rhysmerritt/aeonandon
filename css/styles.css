@@ -19,6 +19,9 @@ footer {
 
 h1 {
     font-family: 'Eczar', serif;
+    background: -webkit-linear-gradient(0.254turn, #12c2e9, #c471ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p {

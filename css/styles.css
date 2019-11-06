@@ -5,6 +5,10 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
 }
 
 .content {
@@ -20,11 +24,12 @@ footer {
 
 h1 {
     font-family: 'Eczar', serif;
-    background: -webkit-linear-gradient(0.254turn, #12c2e9, #c471ed);
+    /*  background: -webkit-linear-gradient(0.254turn, #12c2e9, #c471ed);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     transform: skewY(-2deg);
     padding-bottom: 20px;
+    color: white;
 }
 
 p {
@@ -32,6 +37,14 @@ p {
     font-size: 14px;
     line-height: 145%;
     max-width: 600px;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: white;
 }
 
 footer a {
@@ -42,11 +55,11 @@ footer a {
 
 .passtext {
     font-size: 12px;
-    color: #A9A9A9;
+    color: #ccc;
 }
 
 .passtext a {
-    color: #A9A9A9;
+    color: #ccc;
 }
 
 /** Desktop classes **/
@@ -60,16 +73,16 @@ footer a {
 }
 
 .squiggle {
-    background: linear-gradient(to bottom, #e212e9 0%, #e212e9 100%);
+    background: linear-gradient(to bottom, #33ff00 0%, #33ff00 100%);
     background-position: 0 100%;
     background-repeat: repeat-x;
     background-size: 2px 2px;
-    color: #333;
+    color: white;
     text-decoration: none;
 }
 
 .squiggle:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%2305C102' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ffff00' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: 0 100%;
     background-size: auto 4px;
     background-repeat: repeat-x;
@@ -77,3 +90,4 @@ footer a {
 }
 
 }
+

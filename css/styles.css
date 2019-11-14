@@ -54,8 +54,6 @@ footer a {
 }
 
 footer span {
-    padding-bottom: 10px;
-    float: right;
     color: #0000003d;
 }
 
@@ -83,6 +81,12 @@ footer a {
     display: inline;
     padding-bottom: 0px;
     padding-right: 8px;
+}
+
+footer span {
+    padding-bottom: 10px;
+    float: right;
+    color: #0000003d;
 }
 
 .squiggle {

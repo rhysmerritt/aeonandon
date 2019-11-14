@@ -53,6 +53,19 @@ footer a {
     margin-right: 10px;
 }
 
+footer span {
+    padding-bottom: 10px;
+    float: right;
+    color: #0000003d;
+}
+
+.footerp {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    line-height: 145%;
+    max-width: none;
+}
+
 .passtext {
     font-size: 12px;
     color: #c471ed;

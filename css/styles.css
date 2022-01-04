@@ -5,9 +5,9 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background: #080820;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #080820, #050514);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #080820, #050514); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #060619;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #060619, #020208);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #060619, #020208); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #FFFFFF;
 }
 
@@ -33,7 +33,12 @@ h1 {
 }
 
 .logoimage {
-    padding-bottom: 16px;
+    padding-bottom: 32px;
+    shape-rendering: crispEdges;
+}
+
+.hero {
+    margin-bottom: 64px;
 }
 
 p {
@@ -63,7 +68,7 @@ footer span {
 
 .footerp {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 145%;
     max-width: none;
     margin-bottom: 32px;
@@ -82,8 +87,91 @@ footer span {
 .gridline {
     z-index: -1;
     display: flex;
+
+    margin-left: 32px;
+    margin-right: auto;
+    position: fixed;
+}
+
+.col {
+    display: inline-block;
+    border-left: 1px solid #13134E;
+    height: 100vh;
+}
+
+.col-desktop {
+    display: none;
+}
+
+.col-section {
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    margin-bottom: 64px;
+}
+
+.col section p {
+    color: #FFFFFF;
+}
+
+td {
+    color: #C4C4C4;
+    padding-right: 16px;
+    vertical-align: top;
+}
+
+tr {
+    line-height: 32px;
+}
+
+td img {
+    height: 12px;
+    width: 12px;
+    padding-left: 4px;
+}
+
+.comingsoon {
+    color: #7B94B1;
+}
+
+.herenow {
+ color: #FC92D1;
+}
+
+.password-hint {
+    margin-top: 16px;
+    color: #575757;
+}
+
+/** Desktop classes **/
+
+@media (min-width: 736px) {
+
+.content {
+    display: block;
     width: 960px;
-    margin-left: 240px;
+    left: 0;
+    right: 0;
+    flex: 1 0 auto;
+    margin: 64px auto 0 auto;
+}
+
+.hero {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 80px;
+}
+
+.gridline {
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: flex;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     position: fixed;
 }
 
@@ -94,19 +182,40 @@ footer span {
     height: 100vh;
 }
 
-/** Desktop classes **/
+.col-desktop {
+    display: inline-block;
+    width: 33%;
+    border-left: 1px solid #13134E;
+    height: 100vh;
+}
 
-@media (min-width: 736px) {
+.link-area {
+    display: flex;
+}
 
-.content {
-    width: 960px;
+.col-section {
+    max-width: 319px;
     flex: 1 0 auto;
-    margin: 64px 64px 0 240px;
+}
+
+.intro-text {
+    margin-left: 64px;
+}
+
+.logoimage {
+    padding-bottom: 16px;
+}
+
+tr {
+    line-height: 160%;
 }
 
 footer {
     width: 960px;
-    margin-left: 240px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer a {

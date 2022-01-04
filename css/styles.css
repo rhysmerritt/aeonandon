@@ -79,17 +79,34 @@ footer span {
     color: #FC92D1;
 }
 
+.gridline {
+    z-index: -1;
+    display: flex;
+    width: 960px;
+    margin-left: 240px;
+    position: fixed;
+}
+
+.col {
+    display: inline-block;
+    width: 33%;
+    border-left: 1px solid #13134E;
+    height: 100vh;
+}
+
 /** Desktop classes **/
 
 @media (min-width: 736px) {
 
 .content {
+    width: 960px;
     flex: 1 0 auto;
-    margin: 64px 64px 0 64px;
+    margin: 64px 64px 0 240px;
 }
 
 footer {
-    margin: 64px;
+    width: 960px;
+    margin-left: 240px;
 }
 
 footer a {

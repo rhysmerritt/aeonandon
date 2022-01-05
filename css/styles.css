@@ -144,6 +144,11 @@ td img {
     color: #575757;
 }
 
+.linkarrow {
+    width: 12px;
+    height: 12px;
+}
+
 /** Desktop classes **/
 
 @media (min-width: 736px) {

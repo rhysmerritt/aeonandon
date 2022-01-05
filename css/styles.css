@@ -86,7 +86,6 @@ footer span {
 .gridline {
     z-index: -1;
     display: flex;
-
     margin-left: 32px;
     margin-right: auto;
     position: fixed;
@@ -94,7 +93,7 @@ footer span {
 
 .col {
     display: inline-block;
-    border-left: 1px solid #13134E;
+    border-left: 1px solid #0E0E39;
     height: 100vh;
 }
 

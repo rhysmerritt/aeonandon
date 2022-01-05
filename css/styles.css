@@ -181,14 +181,14 @@ td img {
 .col {
     display: inline-block;
     width: 33%;
-    border-left: 1px solid #13134E;
+    border-left: 1px solid #0E0E39;
     height: 100vh;
 }
 
 .col-desktop {
     display: inline-block;
     width: 33%;
-    border-left: 1px solid #13134E;
+    border-left: 1px solid #0E0E39;
     height: 100vh;
 }
 

@@ -110,9 +110,31 @@ footer span {
     margin-bottom: 64px;
 }
 
+/* THIS IS THE NEW FLEX METHOD TO GET RID OF TABLES */
+
+.col-row {
+    display: flex;
+}
+
+.col-year {
+    min-width: 60px;
+    color: #C4C4C4;
+}
+
+.col-row p {
+    margin-top: 0px;
+    margin-bottom: 8px;
+    line-height: 145%;
+}
+
+
+/* I THINK THIS ISN'T NECESSARY - BUT CHECK BACK IF YOU FIND SOMETHING WEIRD
+
 .col section p {
     color: #FFFFFF;
 }
+
+*/
 
 td {
     color: #C4C4C4;
@@ -131,6 +153,7 @@ td img {
 }
 
 .comingsoon {
+    display: inline-block;
     color: #7B94B1;
 }
 
@@ -164,7 +187,7 @@ td img {
 .hero {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 80px;
+    margin-bottom: 64px;
 }
 
 .gridline {

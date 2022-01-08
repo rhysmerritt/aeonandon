@@ -260,6 +260,10 @@ footer span {
     margin-bottom: 0px;
 }
 
+.footerp a {
+    padding-right: 0px;
+}
+
 .squiggle {
     background: linear-gradient(to bottom, #FC92D1 0%, #c471ed 100%);
     background-position: 0 100%;

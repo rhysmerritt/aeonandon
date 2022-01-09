@@ -24,9 +24,6 @@ footer {
 
 h1 {
     font-family: 'Eczar', serif;
-    /*  background: -webkit-linear-gradient(0.254turn, #12c2e9, #c471ed);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     transform: skewY(-2deg);
     padding-bottom: 20px;
     color: #8BD98E;
@@ -110,7 +107,7 @@ footer span {
     margin-bottom: 64px;
 }
 
-/* THIS IS THE NEW FLEX METHOD TO GET RID OF TABLES */
+/* column flex properties */
 
 .col-row {
     display: flex;
@@ -127,14 +124,7 @@ footer span {
     line-height: 145%;
 }
 
-
-/* I THINK THIS ISN'T NECESSARY - BUT CHECK BACK IF YOU FIND SOMETHING WEIRD
-
-.col section p {
-    color: #FFFFFF;
-}
-
-*/
+/* end of column flex propertis */
 
 td {
     color: #C4C4C4;

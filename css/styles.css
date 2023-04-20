@@ -90,7 +90,7 @@ footer span {
 
 .col {
     display: inline-block;
-    border-left: 1px solid #0E0E39;
+    border-left: 1px solid #103655;
     height: 100vh;
 }
 
@@ -194,14 +194,14 @@ td img {
 .col {
     display: inline-block;
     width: 33%;
-    border-left: 1px solid #0E0E39;
+    border-left: 1px solid #103655;
     height: 100vh;
 }
 
 .col-desktop {
     display: inline-block;
     width: 33%;
-    border-left: 1px solid #0E0E39;
+    border-left: 1px solid #103655;
     height: 100vh;
 }
 

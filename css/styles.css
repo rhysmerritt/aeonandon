@@ -114,8 +114,9 @@ footer span {
 }
 
 .col-year {
-    min-width: 60px;
+    /* min-width: 60px; */
     color: #C4C4C4;
+    margin-right: 16px;
 }
 
 .col-row p {

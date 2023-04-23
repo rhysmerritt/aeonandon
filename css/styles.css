@@ -107,26 +107,6 @@ footer span {
     margin-bottom: 64px;
 }
 
-.col-section-footer-2 {
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 145%;
-    max-width: 638px;
-    flex: 1 0 auto;
-}
-
-.col-section-footer-1 {
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 145%;
-    max-width: 319px;
-    flex: 1 0 auto;
-}
-
 /* column flex properties */
 
 .col-row {
@@ -270,7 +250,6 @@ footer span {
 .footerp {
     margin-bottom: 0px;
 }
-
 
 .footerp a {
     padding-right: 0px;
